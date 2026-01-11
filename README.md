@@ -35,7 +35,7 @@ Este script permite enviar correos electrónicos de manera masiva utilizando una
 
 1. Ejecuta el script:
    ```
-   python email_sender.py
+   python3 email_sender.py
    ```
 
 2. Si necesitas un ejemplo, descomenta la línea `crear_plantilla_ejemplo()` para generar archivos de ejemplo.
