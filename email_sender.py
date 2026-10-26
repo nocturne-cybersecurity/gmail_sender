@@ -42,11 +42,11 @@ class EnviadorCorreos:
             
             # Enviar correo
             self.servidor.send_message(msg)
-            print(f"✓ Correo enviado a: {destinatario}")
+            print(f"Correo enviado a: {destinatario}")
             return True
             
         except Exception as e:
-            print(f"✗ Error al enviar a {destinatario}: {str(e)}")
+            print(f"Error al enviar a {destinatario}: {str(e)}")
             return False
 
     def enviar_masivo_desde_csv(self, archivo_csv: str, columna_email: str, asunto: str, 
